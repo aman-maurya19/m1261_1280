@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/university/bharatiya-engineering-science-and-technology-innovation-university-anantapur-67987",
-  "https://www.shiksha.com/college/s-s-agrawal-college-of-nursing-training-college-and-research-centre-navsari-90801",
-  "https://www.shiksha.com/college/sns-college-of-physiotherapy-sns-group-of-institutions-coimbatore-146139",
-  "https://www.shiksha.com/college/late-fakirabai-pansare-education-foundation-pradhikaran-homoeopathic-medical-college-nigdi-pune-70117",
-  "https://www.shiksha.com/college/khyati-college-of-pharmacy-ahmedabad-101423",
-  "https://www.shiksha.com/college/kalka-dental-college-meerut-183339",
-  "https://www.shiksha.com/college/sri-lal-bahadur-shastri-smarak-government-ayurvedic-college-and-hospital-allahabad-210131",
-  "https://www.shiksha.com/college/hitkarini-dental-college-and-hospital-jabalpur-67417",
-  "https://www.shiksha.com/college/seacom-pharmacy-college-howrah-149259",
-  "https://www.shiksha.com/college/aarogyam-institute-of-paramedical-and-allied-sciences-roorkee-212121",
-  "https://www.shiksha.com/college/palamu-medical-college-palamu-jharkhand-other-106169",
-  "https://www.shiksha.com/university/tripura-university-agartala-31157",
-  "https://www.shiksha.com/college/yashvantrao-chavan-ayurvedic-medical-college-and-hospital-aurangabad-68253",
-  "https://www.shiksha.com/college/centurion-university-of-technology-and-management-bolangir-campus-orissa-other-91631",
-  "https://www.shiksha.com/college/kala-ashram-ayurved-medical-college-and-hospital-udaipur-87381",
-  "https://www.shiksha.com/college/dr-kiran-c-patel-medical-college-and-research-institute-bharuch-150519",
-  "https://www.shiksha.com/college/himalaya-ayurvedic-medical-college-and-hospital-patna-214867",
-  "https://www.shiksha.com/college/emversity-school-of-hospitality-health-sciences-indiranagar-indiranagar-bangalore-225107",
-  "https://www.shiksha.com/college/himachal-institute-of-dental-sciences-sirmour-70547",
-  "https://www.shiksha.com/college/muthurangam-government-arts-college-vellore-73825",
+  "https://www.shiksha.com/college/rajagiri-hospital-kochi-105915",
+  "https://www.shiksha.com/college/yashwant-ayurvedic-college-post-graduate-training-and-research-centre-kolhapur-68117",
+  "https://www.shiksha.com/college/nanded-physiotherapy-college-and-research-center-190429",
+  "https://www.shiksha.com/university/satavahana-university-karimnagar-65063",
+  "https://www.shiksha.com/college/sharavathi-dental-college-and-hospital-shimoga-67873",
+  "https://www.shiksha.com/college/royal-institute-of-management-and-advanced-studies-ratlam-88033",
+  "https://www.shiksha.com/college/pravara-rural-education-society-s-college-of-pharmacy-chincholi-nashik-88239",
+  "https://www.shiksha.com/college/gmers-medical-college-rajpipla-210101",
+  "https://www.shiksha.com/college/naraina-nursing-college-kanpur-90535",
+  "https://www.shiksha.com/college/madr-e-meharban-institute-of-health-sciences-jammu-201777",
+  "https://www.shiksha.com/college/kannur-university-thalassery-campus-203533",
+  "https://www.shiksha.com/college/national-college-of-ayurveda-and-hospital-hisar-87495",
+  "https://www.shiksha.com/college/shri-rawatpura-sarkar-institutions-datia-88035",
+  "https://www.shiksha.com/college/vishal-junnar-seva-mandal-s-vishal-institute-of-pharmaceutical-education-and-research-pune-147869",
+  "https://www.shiksha.com/college/shri-sai-institute-of-pharmacy-and-research-aurangabad-147845",
+  "https://www.shiksha.com/college/maharshi-devraha-baba-autonomous-state-medical-college-deoria-uttar-pradesh-other-180753",
+  "https://www.shiksha.com/college/v-a-p-m-s-college-of-physiotheraphy-visakhapatnam-188851",
+  "https://www.shiksha.com/college/dhanalakshmi-srinivasan-university-perambalur-232112",
+  "https://www.shiksha.com/college/indian-institute-of-ayurved-research-and-hospital-rajkot-87409",
+  "https://www.shiksha.com/college/ch-ranbir-singh-government-polytechnic-college-yamuna-nagar-97827",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1261
+    c_count = 1541
 
     try:
         for base_url in BASE_URL:
