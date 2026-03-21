@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/rajagiri-hospital-kochi-105915",
-  "https://www.shiksha.com/college/yashwant-ayurvedic-college-post-graduate-training-and-research-centre-kolhapur-68117",
-  "https://www.shiksha.com/college/nanded-physiotherapy-college-and-research-center-190429",
-  "https://www.shiksha.com/university/satavahana-university-karimnagar-65063",
-  "https://www.shiksha.com/college/sharavathi-dental-college-and-hospital-shimoga-67873",
-  "https://www.shiksha.com/college/royal-institute-of-management-and-advanced-studies-ratlam-88033",
-  "https://www.shiksha.com/college/pravara-rural-education-society-s-college-of-pharmacy-chincholi-nashik-88239",
-  "https://www.shiksha.com/college/gmers-medical-college-rajpipla-210101",
-  "https://www.shiksha.com/college/naraina-nursing-college-kanpur-90535",
-  "https://www.shiksha.com/college/madr-e-meharban-institute-of-health-sciences-jammu-201777",
-  "https://www.shiksha.com/college/kannur-university-thalassery-campus-203533",
-  "https://www.shiksha.com/college/national-college-of-ayurveda-and-hospital-hisar-87495",
-  "https://www.shiksha.com/college/shri-rawatpura-sarkar-institutions-datia-88035",
-  "https://www.shiksha.com/college/vishal-junnar-seva-mandal-s-vishal-institute-of-pharmaceutical-education-and-research-pune-147869",
-  "https://www.shiksha.com/college/shri-sai-institute-of-pharmacy-and-research-aurangabad-147845",
-  "https://www.shiksha.com/college/maharshi-devraha-baba-autonomous-state-medical-college-deoria-uttar-pradesh-other-180753",
-  "https://www.shiksha.com/college/v-a-p-m-s-college-of-physiotheraphy-visakhapatnam-188851",
-  "https://www.shiksha.com/college/dhanalakshmi-srinivasan-university-perambalur-232112",
-  "https://www.shiksha.com/college/indian-institute-of-ayurved-research-and-hospital-rajkot-87409",
-  "https://www.shiksha.com/college/ch-ranbir-singh-government-polytechnic-college-yamuna-nagar-97827",
+  "https://www.shiksha.com/college/aryans-college-of-pharmacy-rajpura-88641",
+  "https://www.shiksha.com/college/ch-charan-singh-shivdan-singh-college-aligarh-110815",
+  "https://www.shiksha.com/college/mahadev-kanchan-college-of-pharmaceutical-education-and-research-pune-147727",
+  "https://www.shiksha.com/college/i2can-jangali-maharaj-road-pune-243792",
+  "https://www.shiksha.com/college/kalka-institute-for-research-and-advanced-studies-meerut-21774",
+  "https://www.shiksha.com/college/bharat-technology-howrah-53884",
+  "https://www.shiksha.com/college/visveswarapura-institute-of-pharmaceutical-science-basavanagudi-bangalore-67729",
+  "https://www.shiksha.com/college/rvs-homeopathic-medical-college-and-hospital-coimbatore-87343",
+  "https://www.shiksha.com/college/j-j-college-of-pharmacy-maheshwaram-kolkata-87773",
+  "https://www.shiksha.com/college/r-v-northland-institute-pharmacy-greater-noida-89323",
+  "https://www.shiksha.com/college/indira-medical-college-hospitals-thiruvallur-152149",
+  "https://www.shiksha.com/college/manrakhan-mahto-group-of-institutions-ranchi-180359",
+  "https://www.shiksha.com/college/rani-durgavati-medical-college-banda-180781",
+  "https://www.shiksha.com/college/bharat-pharmaceutical-technology-agartala-152249",
+  "https://www.shiksha.com/college/vibrant-physiotherapy-college-surat-197653",
+  "https://www.shiksha.com/college/college-of-veterinary-science-and-animal-husbandry-sardarkrushinagar-gujarat-other-224579",
+  "https://www.shiksha.com/college/saaii-college-of-medical-science-technology-kanpur-24941",
+  "https://www.shiksha.com/college/chaudhary-attarsingh-yadav-memorial-education-trusts-pune-65155",
+  "https://www.shiksha.com/college/dreamz-group-of-institution-mandi-87629",
+  "https://www.shiksha.com/college/government-polytechnic-college-nainital-98577",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1541
+    c_count = 1761
 
     try:
         for base_url in BASE_URL:
