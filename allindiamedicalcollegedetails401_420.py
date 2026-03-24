@@ -15,26 +15,22 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/siddhartha-institute-of-pharmaceutical-sciences-narasaraopet-61075",
-  "https://www.shiksha.com/college/lucknow-model-college-of-pharmacy-65457",
-  "https://www.shiksha.com/college/sri-sai-r-group-of-institutions-aligarh-86963",
-  "https://www.shiksha.com/college/abhilashi-college-of-pharmacy-mandi-146713",
-  "https://www.shiksha.com/college/kmp-college-of-pharmacy-indira-gandhi-group-of-institutions-ernakulum-147057",
-  "https://www.shiksha.com/college/dr-a-ramachandran-s-doanetes-hospital-and-india-diabetes-research-foundation-chennai-193865",
-  "https://www.shiksha.com/college/ratnadeep-medical-foundation-and-research-centre-ahmednagar-88545",
-  "https://www.shiksha.com/college/gitanjali-college-of-pharmacy-birbhum-149245",
-  "https://www.shiksha.com/college/sst-s-ayurved-medical-college-ahmednagar-86989",
-  "https://www.shiksha.com/college/pulla-reddy-institute-of-pharmacy-medak-87853",
-  "https://www.shiksha.com/college/padmini-college-of-pharmacy-sangli-89099",
-  "https://www.shiksha.com/college/dr-m-v-shetty-college-of-speech-and-hearing-institute-of-health-science-mangalore-201973",
-  "https://www.shiksha.com/college/sri-madhusudan-sai-institute-of-medical-sciences-and-research-chikballpura-229610",
-  "https://www.shiksha.com/college/baba-kinaram-autonomous-state-medical-college-uttar-pradesh-other-231180",
-  "https://www.shiksha.com/college/the-national-institute-of-hotel-management-koyambedu-chennai-53771",
-  "https://www.shiksha.com/college/grace-college-of-pharmacy-palakkad-60779",
-  "https://www.shiksha.com/college/swathi-college-of-pharmacy-nellore-61017",
-  "https://www.shiksha.com/college/maratha-mandal-s-nathajirao-g-halgekar-institute-of-dental-sciences-and-research-centre-belgaum-67861",
-  "https://www.shiksha.com/college/kuchaman-pharmacy-college-kuchhaman-88547",
-  "https://www.shiksha.com/college/minerva-college-of-education-kangra-91873",
+  "https://www.shiksha.com/college/g-pulla-reddy-college-of-pharmacy-mehdipatnam-hyderabad-70209",
+  "https://www.shiksha.com/college/mnr-homoeopathic-medical-college-and-hospital-sangareddy-87477",
+  "https://www.shiksha.com/college/sachdeva-college-of-pharmacy-kharar-87589",
+  "https://www.shiksha.com/college/asian-institute-of-medical-sciences-faridabad-106039",
+  "https://www.shiksha.com/college/e-b-gadkari-homoeopathy-college-kolhapur-189559",
+  "https://www.shiksha.com/college/maharaja-institute-of-medical-science-ettimadai-post-campus-coimbatore-212889",
+  "https://www.shiksha.com/college/lovely-professional-university-in-tie-up-with-emversity-phagwara-240332",
+  "https://www.shiksha.com/college/indore-management-institute-and-research-centre-64101",
+  "https://www.shiksha.com/college/government-college-kalka-panchkula-71805",
+  "https://www.shiksha.com/college/max-institute-of-pharmaceutical-sciences-khammam-87879",
+  "https://www.shiksha.com/college/regional-college-of-pharmacy-jaipur-88353",
+  "https://www.shiksha.com/college/smt-sharadben-shantibhai-patel-nootan-science-and-commerce-college-visnagar-137475",
+  "https://www.shiksha.com/college/lakshya-medical-college-uttar-pradesh-other-148607",
+  "https://www.shiksha.com/college/z-h-unani-medical-college-and-hospital-siwan-182267",
+  "https://www.shiksha.com/college/awadh-paramedical-college-jaunpur-199813",
+  "https://www.shiksha.com/college/ambika-institute-for-paramedical-studies-jodhpur-201163",
 ]
 
 
@@ -9243,7 +9239,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1961
+    c_count = 2245
 
     try:
         for base_url in BASE_URL:
