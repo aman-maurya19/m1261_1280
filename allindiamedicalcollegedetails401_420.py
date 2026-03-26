@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/institute-of-good-manufacturing-practices-india-vadodara-55169",
-  "https://www.shiksha.com/college/ecr-group-of-institutions-udupi-56129",
-  "https://www.shiksha.com/college/rajarshi-rananjay-sinh-college-of-pharmacy-uttar-pradesh-other-59649",
-  "https://www.shiksha.com/college/dr-c-s-n-institute-of-pharmacy-bhimavaram-60763",
-  "https://www.shiksha.com/college/k-r-s-college-of-pharmacy-gonda-65341",
-  "https://www.shiksha.com/college/bps-educational-institution-of-pharmacy-uttar-pradesh-other-65429",
-  "https://www.shiksha.com/college/marwar-health-care-society-ayurved-nursing-training-centre-kuchhaman-87117",
-  "https://www.shiksha.com/college/maulana-azad-institute-of-pharmacy-jodhpur-88363",
-  "https://www.shiksha.com/college/sn-college-of-pharmacy-sriganaganagar-88615",
-  "https://www.shiksha.com/college/gandhi-natha-rangaji-college-of-d-pharmacy-solapur-88897",
-  "https://www.shiksha.com/college/shramjivi-shikshan-prasarak-mandals-shramjivi-college-of-pharmacy-maharashtra-other-147933",
-  "https://www.shiksha.com/college/vedant-institute-of-professional-studies-gwalior-157099",
-  "https://www.shiksha.com/college/ravindra-gambhirrao-sapkal-college-of-pharmacy-nashik-179685",
-  "https://www.shiksha.com/college/apollo-speciality-hospital-jayanagar-bangalore-240758",
-  "https://www.shiksha.com/college/smit-saroj-mohan-institute-of-technology-hooghly-53867",
-  "https://www.shiksha.com/college/sri-sai-college-of-pharmacy-amritsar-59253",
-  "https://www.shiksha.com/college/adesh-college-of-pharmacy-pilibhit-65741",
-  "https://www.shiksha.com/college/u-s-ostwal-group-of-colleges-chittorgarh-77479",
-  "https://www.shiksha.com/college/jangaon-institute-of-pharmaceutical-sciences-warangal-87881",
-  "https://www.shiksha.com/college/maharashtra-cosmopolitan-education-society-institute-of-pharmacy-azam-campus-pune-89153",
+  "https://www.shiksha.com/college/samrath-institute-for-education-and-tech-vill-and-post-nek-meerut-87899",
+  "https://www.shiksha.com/college/central-india-institute-of-pharmacy-indore-88079",
+  "https://www.shiksha.com/college/djps-college-of-pharmacy-parbhani-88651",
+  "https://www.shiksha.com/college/kunal-college-of-pharmacy-agra-88925",
+  "https://www.shiksha.com/college/government-polytechnic-college-gauchar-uttarakhand-other-98433",
+  "https://www.shiksha.com/college/st-soldier-institute-of-pharmacy-and-polytechnic-hoshiarpur-100531",
+  "https://www.shiksha.com/college/smt-kamlaben-p-patel-college-of-home-science-anand-111203",
+  "https://www.shiksha.com/college/chordia-institute-of-pharmacy-indore-147451",
+  "https://www.shiksha.com/college/a-k-r-g-college-of-pharmacy-andhra-pradesh-other-60347",
+  "https://www.shiksha.com/college/krishak-college-of-pharmacy-mirzapur-65467",
+  "https://www.shiksha.com/college/subramanya-college-of-arts-and-science-palani-77003",
+  "https://www.shiksha.com/college/malwa-institute-of-pharmacy-gwalior-88571",
+  "https://www.shiksha.com/college/shri-dhaneshwari-manav-vikas-mandal-s-diploma-in-pharmacy-institute-aurangabad-89223",
+  "https://www.shiksha.com/college/maharashtra-polytechnic-d-pharmacy-institute-latur-99425",
+  "https://www.shiksha.com/college/habibi-institute-of-higher-education-moradabad-140483",
+  "https://www.shiksha.com/college/vs-college-of-pharmacy-bulandshahr-181723",
+  "https://www.shiksha.com/college/nitte-institute-of-speech-and-hearing-medical-science-nitte-university-mangalore-185461",
+  "https://www.shiksha.com/college/maa-gaytri-physiotherapy-college-udaipur-193183",
+  "https://www.shiksha.com/college/bhupal-nobles-institute-of-pharmacutical-sciences-udaipur-193189",
+  "https://www.shiksha.com/college/zakir-hussain-college-of-higher-education-meerut-208339",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2961
+    c_count = 3221
 
     try:
         for base_url in BASE_URL:
